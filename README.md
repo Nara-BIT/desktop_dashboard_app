@@ -42,40 +42,37 @@ dashboard-app/
 | ![Login Screenshot](screenshots/login.png) | ![Dashboard Screenshot](screenshots/dashboard.png) |
 
 ---
+🛠️ How to Execute
+1. Install Dependencies
 
-## 🛠️ How to Execute
+Open your terminal in the dashboard-app folder and run:
 
-Follow these steps to run the application on your Ubuntu system:
-
-### 1. Install Dependencies
-Open your terminal in the `dashboard-app` folder and run:
-```Bash
 npm install
+2. Run in Development Mode
 
-
-### 2. Run in Development Mode
 To test the application and view the UI:
 
-```Bash
 npm start
-Login Email: any@email.com
 
-Login Password: anypassword (minimum 6 characters)
+Login credentials for testing:
 
-### 3. Build the .deb Installer
+Email: any@email.com
+Password: anypassword (minimum 6 characters)
+3. Build the .deb Installer
+
 To package the app into a professional Linux installer:
 
-```Bash
 npm run build
-### 4. Install the App on Ubuntu
+4. Install the App on Ubuntu
+
 Once the build is finished, find the .deb file in the dist/ folder and install it using:
 
-```Bash
 sudo dpkg -i dist/dashboard-app_1.0.0_amd64.deb
 ⚙️ Features
 Login Authentication: Simple email/password validation via IPC.
-
 Dynamic Sections: Seamless switching between Surveillance, Records, and Analytics without reloading the page.
-
 Linux Native: Integrated with the Ubuntu desktop environment via a standalone window.
-```text
+
+---
+
+
