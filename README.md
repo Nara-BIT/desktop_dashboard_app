@@ -78,3 +78,4 @@ Login Authentication: Simple email/password validation via IPC.
 Dynamic Sections: Seamless switching between Surveillance, Records, and Analytics without reloading the page.
 
 Linux Native: Integrated with the Ubuntu desktop environment via a standalone window.
+```text
