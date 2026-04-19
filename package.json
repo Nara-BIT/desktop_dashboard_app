@@ -1,0 +1,25 @@
+{
+  "name": "desktop_dashboard_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --linux deb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nara-BIT/desktop_dashboard_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nara-BIT/desktop_dashboard_app/issues"
+  },
+  "homepage": "https://github.com/Nara-BIT/desktop_dashboard_app#readme",
+  "dependencies": {
+    "electron": "^41.2.1",
+    "electron-builder": "^26.8.1"
+  }
+}
