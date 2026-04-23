@@ -1,5 +1,5 @@
 # Desktop Dashboard App
-# 🚀 Dashboard App (Linux .deb)
+# 🚀 Dashboard App(Linux .deb)
 
 A professional, fundamental frontend dashboard for Ubuntu Linux. This application features a secure login flow followed by a multi-section dashboard containing Surveillance, Records, and Analytics.
 
